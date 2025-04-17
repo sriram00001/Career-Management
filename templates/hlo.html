@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=
+    "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Empowerment</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="h-primary">
+            <h1>Welcome to School Empowerment</h1>
+        </div>
+        <nav class="navigation">
+           <div class="navbar">
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('help') }}">Help</a></li>
+
+            </ul>
+           </div>
+        </nav>
+    </header>
+    <hr>
+   
+    <!-- <h2 class="second">
+        I am a 
+    </h2>    -->
+    <div class="info">
+        
+        <a href="{{ url_for('student') }}" class="btn"><button>Student</button></a>
+        <a href="{{ url_for('teacher') }}" class="btn"><button>Teacher</button></a>
+       </button>
+       <!-- <button class="btn"><a href="parent.html">Parent</a></button> -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+.h-primary{
+    text-align: center;
+}
+.second{
+    position: absolute;
+    top: 214px;
+    left: 48%;
+    font-size: 3rem;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    align-items: center;
+    list-style: none;
+    margin: 9px 79px;
+    padding: 10px 58px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.navbar ul li:hover{
+    color: white;
+    background-color: black;
+}
+.navbar ul li a{
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.navbar ul li a:hover{
+    color: white;
+    background-color: black;
+
+}
+.info a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px 37px;
+    /* margin: 12px 10px; */
+    /* border: 2px solid black; */
+}
+.info{
+    position: absolute;
+    margin-top: 90px;
+    left: 20%;
+    padding: 1px 50px;
+}
+.btn{
+    margin: 12px 18px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.formgroup input{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 12px;
+    padding: 10px 10px;
+    width: 119%;
+
+}
+.formgroup{
+    position: absolute;
+    left: 39%;
+    top: 43%;
+}
+.but{
+    width: 60%;
+    margin-left: 75px;
+    margin-top: 22px;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.activities{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 23px 75px;
+    width: 12%;
+    height: 50px;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+}
+.options a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.File-Download ul li a
+{
+    margin: 23px 75px;
+    width: 12%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.info button{
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    color: black;
+    background-color: white;
+
+}
+.info button:hover{
+    
+    color: white;
+    background-color: black;
+
+} 
+.navigation{
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    padding: 1px 105px;
+}
+.activities a{
+    width: 150px;
+    height: 100px;
+    
+}
+.activities a button{
+    width: 150px;
+    height: 100px;
+}
+.ii {
+    max-width: 600px; /* Set a maximum width for better readability */
+    margin: 0 30px; /* Center the form horizontally */
+}
+
+.ii label {
+    display: inline-block;
+    width: 90px; /* Adjust the width of the label as needed */
+    text-align: left;
+    margin-right: 50px; /* Add some spacing between label and input */
+}
+
+.ii input {
+    width: calc(45% - 190px); /* Adjust the width of the input based on label width and margin */
+    text-align: right;
+}
+.cc{
+    max-width: 600px; /* Set a maximum width for better readability */
+    margin: 0 30px; 
+}
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports and Games</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1 class="h-primary">Sports Achievements</h2>
+    <form action="" class="formgroup">
+        <label for="type">Type of the Physical Activity:</label>
+        <select name="type" id="type">
+            <option value="games">Games</option>
+            <option value="sports">Sports</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="type">Game Name:</label>
+        <select name="GameName" id="GameName">
+            <option value="running" class="GameName">Running</option>
+            <option value="shotput" class="GameName">Shotput</option>
+            <option value="longjump" class="GameName">Long-Jump</option>
+            <option value="highjump" class="GameName">High-Jump</option>
+            <option value="javellinthrow" class="GameName">Javellin-Throw</option>
+            <option value="cricket" class="GameName">Cricket</option>
+            <option value="football" class="GameName">Football</option>
+            <option value="volleyball" class="GameName">VolleyBall</option>
+            <option value="hockey" class="GameName">Hockey</option>
+            <option value="kabaddi" class="GameName">Kabaddi</option>
+        </select>
+
+        <br><br>
+
+        <label for="Achievement">Enter the Achievement:</label>
+        <select name="Achievement" id="Achievement">
+            <option value="pos">Winner</option>
+            <option value="pos">Runner</option>
+            <option value="pos">Participation</option>
+        </select>
+        <br><br>
+
+        <label for="proof">Proof of Achcivement:</label>
+        <input type="file" id="myFile" name="filename">
+        <br><br>
+
+        <button class="btn">Submit and Update Values</button>
+    </form>
+</body>
+</html>

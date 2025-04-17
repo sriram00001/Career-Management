@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1 class="h-primary">Welcome to Student Learning!!!!!</h1>
+    <h4 style="text-align: center;">A WorkSpace to Improve your Skills</h4>
+    <div class="options">
+        
+        <a href="{{ url_for('contests') }}" class="activities"><button>Contests</button></a>
+        <a href="{{ url_for('quiz') }}" class="activities"><button>Quizzes</button></a>
+        <a href="{{ url_for('assignments') }}" class="activities"><button>Assignments</button></a>
+        <a href="{{ url_for('benefits') }}" class="activities"><button>Benefits</button></a>
+        <a href="{{ url_for('points') }}" class="activities"><button>Points</button></a>
+        <a href="{{ url_for('index') }}" class="activities"><button>Career</button></a>
+
+
+    </div>
+
+</body>
+
+</html>

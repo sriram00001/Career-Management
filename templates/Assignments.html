@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <a href="{{ url_for('academic_assignments') }}" class="activities"><button>Academic Assignments</button></a>
+    <a href="{{ url_for('sports_achievements') }}" class="activities"><button>Sports and Games Achievements</button></a>
+    <a href="{{ url_for('co_curricular_assignments') }}" class="activities"><button>Co-Curricular Assignments</button></a>
+
+</body>
+</html>
